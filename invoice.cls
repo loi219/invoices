@@ -46,6 +46,7 @@
 }
 
 % Counters for totaling up hours and dollars
+\renewcommand{\$}{\text{CHF}} %used to replace the dollar symbol with any other currency symbol
 \newcounter{hours} \newcounter{subhours} \newcounter{cost} \newcounter{subcost}
 \setcounter{hours}{0} \setcounter{subhours}{0} \setcounter{cost}{0} \setcounter{subcost}{0}
 
